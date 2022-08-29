@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <!-- tailwind  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+     
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- google fonts  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- css  -->
+<style>
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+<!-- font awsome  -->
+<script src="https://kit.fontawesome.com/165bdfaad6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <section>
+            <div id="load" class="">
+                <img class=" w-50 mx-auto" src="https://i.pinimg.com/originals/61/92/e4/6192e41a4b366ebc4eb86d4444c79177.gif"></img>
+                </div>
+        </section>
+        <section>
+            <div class="hero lg:pt-10 bg-base-200">
+                <div class="hero-content flex-col lg:flex-row-reverse ">
+                  <div class="text-center lg:text-left lg:pl-20">
+                    <h1 class="text-5xl font-bold text-amber-700">See Your Favourite Player Information</h1>
+                    <p class="py-6">Here You Can search your favourite player information by their name. Just write down your favourite player name.</p>
+                  </div>
+                  <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <div class="card-body">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Plaese Input First Name</span>
+                        </label>
+                        <input id="first-input" type="text" placeholder="First Name" class="input input-bordered" />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Plaese Input Last Name</span>
+                        </label>
+                        <input id="second-input" type="text" placeholder="Last Name" class="input input-bordered"/>
+                      </div>
+                      <div onclick="buttonValue()" class="form-control mt-6">
+                        <button class="btn btn-primary">SEARCH</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="player-info">
+            
+            <!-- <div class="py-20 bg-base-200 px-4">
+                <div class="flex flex-col md:flex-row">
+                 <div class="w-1/2 flex justify-center items-center">
+                    <img src="https://www.thesportsdb.com/images/media/player/thumb/ino2iw1600892848.jpg" class="max-w-sm max-w-lg rounded-lg shadow-2xl" />
+                 </div>
+
+                  <div class="w-1/2">
+                    <h1 class="text-5xl font-bold">Lionel Messi</h1>
+                    <p class="text-2xl my-1">about Lionel Messi :<small> Lionel Andrés Messi (born 24 June 1987), also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captain</small></p>
+                    <div class="grid grid-cols-2 gap-4 my-3">
+                        <p class="text-2xl">nationality</p>
+                    <p class="text-2xl">argentina</p>
+                    <p class="text-2xl">Club</p>
+                    <p class="text-2xl">nationality</p>
+                    <p class="text-2xl">age</p>
+                    <p class="text-2xl">nationality</p>
+                    <p class="text-2xl">Height</p>
+                    <p class="text-2xl">nationality</p>
+                    <p class="text-2xl">wight</p>
+                    <p class="text-2xl">nationality</p>
+                    <p class="text-2xl">Bithday</p>
+                    <p class="text-2xl">nationality</p>
+                    <p class="text-2xl">birth Location</p>
+                    <p class="text-2xl">nationality</p>
+
+                    </div>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div> -->
+        </section>
+    </main>
+  
+
+    <script src="./sports.js"></script>
+</body>
+</html>
